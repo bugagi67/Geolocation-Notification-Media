@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6560919a10.js" crossorigin="anonymous"></script>
+    <title>Geolocation, Notification, Media</title>
+</head>
+
+<body>
+    <div class="widget">
+        <div class="list-message"></div>
+        <div class="create-message">
+            <textarea name="enter-text" id="enter-text" class="enter-text" autofocus
+                placeholder="Текст сообщения..."></textarea>
+            <i class="fa-solid fa-microphone record-audio record"></i>
+            <i class="fa-solid fa-video record-video record"></i>
+        </div>
+    </div>
+
+    <div class="modal" id="geolocation-modal">
+        <div class="modal-content">
+            <h3>Что-то пошло не так</h3>
+            <p>К сожалению, нам не удалось определить ваше местоположение, пожалуйста, дайте разрешение на использование
+                геолокации, либо введите координаты вручную.</p>
+            <p>Широта и долгота через запятую</p>
+            <input type="text" id="coordinates" placeholder="51.50851,-0.12572">
+            <div class="buttons">
+                <button class="cancel" id="cancel-btn">Отмена</button>
+                <button class="ok" id="ok-btn">OK</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
