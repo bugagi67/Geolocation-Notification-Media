@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/096ptuc4bftmoa2f?svg=true)](https://ci.appveyor.com/project/bugagi67/geolocation-notification-media)
 
-GH-PAGES: 
+GH-PAGES: https://bugagi67.github.io/Geolocation-Notification-Media/
 
 **Общая легенда**
 
